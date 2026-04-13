@@ -1,0 +1,11 @@
+{
+  "name": "aiaelabs-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "features": {},
+  "postCreateCommand": "bash .devcontainer/post.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-playwright.playwright"]
+    }
+  }
+}
